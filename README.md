@@ -1,24 +1,65 @@
-Esta é uma Análise de Vendas e Clientes (Nível Avançado com SQL), analisando a performance comercial de uma loja de aparelhos de tecnologia. Base de dados essa fictícia usada apenas para aprendizado e testes.
+📊 Análise de Vendas e Clientes com SQL
 
-Os Schemas utilizados estão anexados e são:
-- pedidos
+📌 Sobre o Projeto
+Este projeto tem como objetivo analisar a performance de vendas e o comportamento de clientes de uma loja fictícia de tecnologia, utilizando SQL em nível avançado.
+A análise foi desenvolvida com foco em gerar insights estratégicos que apoiem a tomada de decisão no negócio.
+
+🗂️ Estrutura do Banco de Dados
+
+O projeto utiliza um modelo relacional composto pelos seguintes schemas:
 - clientes
+- pedidos
 - produtos
 - categorias
 
-Na Etapa 1: Dediquei tempo para conhecer o banco. 
-Na Etapa 2: Explorei receita mensal, top clientes e outros. 
-Na Etapa 3: Verifiquei os Dados principalmente datas, nulos e relacionamento entre tabelas para fazer ou não o tratamento de dados. 
-Na Etapa 4: Desenvolvi análises de Receita e Crescimento MoM e de frequência de compra dos Clientes . 
-Na Etapa 5: Realizei um ranqueamento segmentado da categoria dos produtos para identificar as categorias mais procuradas e compradas, analisei a receita acumulada mes a mes e dia a dia, fiz um cohort para identificar quando os clientes começam a comprar, descobri o ticket médio, separei as datas de primeira e ultima compra dos clientes, Criei uma ferramenta para dar status e fazer contagem a clientes que compram mais de uma vez ou que fizeram apenas uma compra e por fim uma query simples e importante para ver a quantidade de pedidos por mes.
+⚙️ Etapas do Projeto
 
-Insights Obtidos através dessa analise:
-- Clientes Compram Geralmente Um Único Produto Por Vez
-- A Categoria Headphones é Responsável Por 93% das Vendas 
-- O TOP Produto do Ano É: Headphone Bluetooth 2000
-- Os Clientes Geralmente Começam a Comprar Principalmente No Início de Janeiro (Presente de Ano Novo?)
-- 83% dos Clientes Cadastrados Retornam Para Comprar Novamente
-- Fevereiro, Abril e Outubro Tiveram Um Nível Baixíssimo de Vendas
-- Os Meses Com mais Vendas São Respectivamente Janeiro, Novembro e Dezembro
-- 23% dos Clientes São Responsáveis por 43% do Faturamento Bruto
-- Os 5 Melhores Clientes do Ano Foram Respectivamente Jill(ID: 26), Wyatt(ID: 15), Jimmy(ID: 27), Jamime(ID:31) e Damien(ID: 78)
+1. Exploração Inicial
+Entendimento das tabelas e relacionamentos
+Análise geral dos dados disponíveis
+
+2. Análise Exploratória
+Receita mensal
+Volume de pedidos
+Identificação de top clientes
+
+3. Validação e Tratamento de Dados
+Verificação de valores nulos
+Padronização de datas
+Validação de integridade entre tabelas
+
+4. Análises de Negócio
+Receita e crescimento mês a mês (MoM)
+Frequência de compra dos clientes
+Ticket médio
+
+5. Análises Avançadas
+Cohort de clientes
+Ranking de produtos e categorias
+Receita acumulada (mensal e diária)
+Segmentação de clientes (recorrentes vs. únicos)
+Identificação da primeira e última compra
+
+📈 Principais Insights
+- 83% dos clientes retornam para comprar novamente
+- 23% dos clientes são responsáveis por 43% do faturamento
+- Alta concentração de vendas na categoria "Headphones"
+- Sazonalidade com picos em janeiro, novembro e dezembro
+- Baixo desempenho em fevereiro, abril e outubro
+- Clientes tendem a comprar apenas um item por pedido
+
+🛠️ Tecnologias Utilizadas
+- SQL
+- CTEs
+- Funções de agregação
+- Window Functions
+- Modelagem de dados
+- Análise exploratória
+
+
+🚀 Objetivo
+Demonstrar habilidades em:
+- Análise de dados com SQL
+- Interpretação de métricas de negócio
+- Geração de insights estratégicos)
+
