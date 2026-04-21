@@ -5,7 +5,6 @@ Este projeto tem como objetivo analisar a performance de vendas e o comportament
 A análise foi desenvolvida com foco em gerar insights estratégicos que apoiem a tomada de decisão no negócio.
 
 🗂️ Estrutura do Banco de Dados
-
 O projeto utiliza um modelo relacional composto pelos seguintes schemas:
 - clientes
 - pedidos
@@ -55,7 +54,6 @@ Identificação da primeira e última compra
 - Window Functions
 - Modelagem de dados
 - Análise exploratória
-
 
 🚀 Objetivo
 Demonstrar habilidades em:
